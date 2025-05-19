@@ -1,0 +1,99 @@
+</* Fuente y color principal */
+body {
+  font-family: 'Lucida Handwriting', cursive;
+  font-style: italic;
+  color: #12007C;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+/* Encabezado */
+header {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 30px 20px;
+  border-bottom: 2px solid #12007C;
+}
+
+/* Navegación */
+nav {
+  background-color: #e0e0ff;
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #12007C;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff66cc;
+}
+
+/* Secciones generales */
+section {
+  padding: 30px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Catálogo */
+.catalogo ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.catalogo li {
+  margin: 10px 0;
+  padding: 8px;
+  background-color: #f0f0ff;
+  border: 1px solid #12007C;
+  border-radius: 8px;
+  max-width: 200px;
+}
+
+/* Formulario boletín */
+#boletin input[type="email"] {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #12007C;
+  border-radius: 6px;
+}
+
+#boletin button {
+  padding: 10px 20px;
+  background-color: #12007C;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+#boletin button:hover {
+  background-color: #0e005e;
+}
+
+/* Redes sociales */
+footer {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 20px;
+}
+
+.redes-sociales img {
+  width: 35px;
+  margin: 0 10px;
+  vertical-align: middle;
+  transition: transform 0.3s ease;
+}
+
+.redes-sociales img:hover {
+  transform: scale(1.2);
+}
+
